@@ -13,8 +13,10 @@
     </head>
     <body <?php body_class(); ?>>
         <header>
-            <h1><?php bloginfo('name'); ?></h1>
-            <h2><?php bloginfo('description'); ?></h2>
+            <div id="identidad">
+                <h1><?php bloginfo('name'); ?></h1>
+                <h2><?php bloginfo('description'); ?></h2>
+            </div>
             <nav>
                 <?php
                     wp_nav_menu(array(
