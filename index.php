@@ -13,7 +13,7 @@
     </head>
     <body <?php body_class(); ?>>
         <header>
-            
+            <h1><?php bloginfo('name'); ?></h1>
         </header>
         <main>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
