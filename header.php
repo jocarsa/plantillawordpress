@@ -26,5 +26,6 @@
                     ));
                 ?>
             </nav>
+            <div style="clear:both;"></div>
         </header>
         <main>
