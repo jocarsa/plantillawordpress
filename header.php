@@ -19,7 +19,7 @@
                 <?php
                     wp_nav_menu(array(
                         'theme_location' => 'menuprincipal', // This should match the registered menu location in your theme.
-                        'menu_class'     => 'your-menu-class', // Add a custom CSS class for styling (optional).
+                        'menu_class'     => 'mimenu', // Add a custom CSS class for styling (optional).
                         // You can add more parameters as needed.
                     ));
                 ?>
