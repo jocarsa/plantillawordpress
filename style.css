@@ -121,3 +121,11 @@ main{
     width:100%;
     height:auto;
 }
+.entrada a{
+    color:inherit;
+    text-decoration: none;
+}
+.entrada p{
+    padding:0px;
+    font-size:11px;
+}
