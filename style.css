@@ -79,6 +79,9 @@ h2{
     padding:40px;
     margin-top:20px;
     box-shadow:0px 0px 20px rgba(0,0,0,0.3) inset;
+    background:url("img/blanco.png"),url("img/banner.png");
+    background-size:cover;
+    background-position:center center;
 }
 #banner *{
     width:50%;
