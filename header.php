@@ -17,12 +17,11 @@
             <h2><?php bloginfo('description'); ?></h2>
             <nav>
                 <?php
-                    wp_nav_menu(
-                        array(
-                            'theme_location' => 'primary',
-                            'menu_class'     => 'nav-menu',
-                        )
-                    );
+                    wp_nav_menu(array(
+                        'theme_location' => 'menuprincipal', // This should match the registered menu location in your theme.
+                        'menu_class'     => 'your-menu-class', // Add a custom CSS class for styling (optional).
+                        // You can add more parameters as needed.
+                    ));
                 ?>
             </nav>
         </header>
