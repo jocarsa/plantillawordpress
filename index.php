@@ -12,6 +12,8 @@
         
     </head>
     <body <?php body_class(); ?>>
-    
+        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+            Hola
+        <?php endwhile; endif; ?>
     </body>
 </html>
