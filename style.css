@@ -121,11 +121,18 @@ main{
     width:100%;
     height:auto;
 }
-.entrada a{
+a{
     color:inherit;
     text-decoration: none;
 }
 .entrada p{
     padding:0px;
     font-size:11px;
+}
+header{
+    margin-top:40px;
+    border-radius:20px 20px 0px 0px;
+}
+footer{
+    border-radius:0px 0px 20px 20px;
 }
