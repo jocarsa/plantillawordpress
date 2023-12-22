@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 <div class="contenido">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <article>
+        <article class="<?php if (is_page()) {
+                            echo "pagina";
+                        }else{
+                            echo "entrada";
+                        } ?>">
             <?php
             if (has_post_thumbnail()) {
                 // Display the featured image
