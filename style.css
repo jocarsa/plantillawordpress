@@ -108,3 +108,16 @@ main{
     padding-top:20px;
     clear:both;
 }
+.contenido {
+  
+}
+.entrada {
+    width:32%;
+  display:inline-block;
+  box-sizing: border-box;
+    padding:10px;
+}
+.entrada img{
+    width:100%;
+    height:auto;
+}
