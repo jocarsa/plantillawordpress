@@ -15,6 +15,16 @@
         <header>
             <h1><?php bloginfo('name'); ?></h1>
             <h2><?php bloginfo('description'); ?></h2>
+            <nav>
+                <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'primary',
+                            'menu_class'     => 'nav-menu',
+                        )
+                    );
+                ?>
+            </nav>
         </header>
         <main>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
